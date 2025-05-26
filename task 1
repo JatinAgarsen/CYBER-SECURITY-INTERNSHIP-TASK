@@ -1,0 +1,24 @@
+┌──(jack㉿kali)-[~/Desktop]
+└─$ sudo nmap -sS 192.168.1.0/24
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2025-05-26 14:01 IST
+Nmap scan report for csp1.zte.com.cn (192.168.1.1)
+Host is up (0.024s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT   STATE    SERVICE
+23/tcp filtered telnet
+53/tcp open     domain
+80/tcp open     http
+
+Nmap scan report for tenda (192.168.1.2)
+Host is up (0.00100s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT      STATE SERVICE
+5500/tcp  open  hotline
+9000/tcp  open  cslistener
+10004/tcp open  emcrmirccd
+
+Nmap done: 256 IP addresses (2 hosts up) scanned in 7.78 seconds
+                                                                                                                                                                      
+┌──(jack㉿kali)-[~/Desktop]
+└─$ 
+
